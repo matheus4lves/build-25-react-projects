@@ -1,6 +1,9 @@
+import Accordion from "@/app/ui/accordion.native";
 
 export default function Home() {
   return (
-    <h1>Howdy!</h1>
+    <main className="flex justify-center items-center h-screen">
+      <Accordion />
+    </main>
   );
 }
