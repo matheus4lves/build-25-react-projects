@@ -1,6 +1,6 @@
 "use client";
 import { useState } from "react";
-import data from "../data/data";
+import data from "@/app/accordion/data/data";
 
 export default function Accordion() {
   const [name, setName] = useState("accordion");
